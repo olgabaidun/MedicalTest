@@ -1,6 +1,12 @@
 package nl.baidun.medical;
 
 public class MedicalPersonnel {
+	private String firstname;
+	
+	private String lastname;
+	
+	private String birthdate;
+	
 	/**
 	 * added by siarheibaidun
 	 */
