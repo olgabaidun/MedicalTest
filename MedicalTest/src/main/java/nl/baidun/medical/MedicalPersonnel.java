@@ -24,6 +24,11 @@ public class MedicalPersonnel {
 	private String address;
 
 	/**
+	 * added by Olja
+	 */
+	private String department;
+	
+	/**
 	 * @return the address
 	 */
 	public String getAddress() {
@@ -59,5 +64,13 @@ public class MedicalPersonnel {
 
 	public void setBirthdate(String birthdate) {
 		this.birthdate = birthdate;
+	}
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
 	}
 }
