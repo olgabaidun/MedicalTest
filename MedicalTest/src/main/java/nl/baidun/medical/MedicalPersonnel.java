@@ -7,7 +7,7 @@ package nl.baidun.medical;
  * @author olgabaidun
  */
 public class MedicalPersonnel {
-	private long firstname3;
+	private String firstname4;
 	
 	private String lastname;
 	
@@ -42,12 +42,12 @@ public class MedicalPersonnel {
 		this.address = address;
 	}
 
-	public long getFirstname3() {
-		return firstname3;
+	public String getFirstname4() {
+		return firstname4;
 	}
 
-	public void setFirstname3(long firstname) {
-		this.firstname3 = firstname;
+	public void setFirstname4(String firstname) {
+		this.firstname4 = firstname;
 	}
 
 	public String getLastname() {
